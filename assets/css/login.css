@@ -1,0 +1,89 @@
+body{
+	background: url('../login.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+.auth_block{
+	margin-top: 15%;
+}
+
+.auth_input{
+	margin-top: 5px;
+	background-color: #F0EDE5;
+	border: 1px solid #F0EDE5;
+}
+
+.auth_input:focus{
+	border: 1px solid #EECD77;
+	-webkit-box-shadow: inset 0 1px 1px #EECD77;
+	box-shadow: inset 0 1px 1px #EECD77;
+}
+
+.login-button{
+    color: #F0EDE5;
+    background-color: #BF996C;
+    border-color: #AE885B;
+}
+
+.login-button:hover{
+    color: #EECD77;
+    background-color: #AE885B;
+    border-color: #BF996C;
+}
+
+.login-button:active{
+    color: #EECD77;
+    background-color: #AE885B!important;
+		border-color: #BF996C!important;
+}
+
+.login-button:focus{
+    color: #EECD77;
+    background-color: #AE885B!important;
+		border-color: #BF996C!important;
+}
+.reg-button{
+    color: #F0EDE5;
+    background-color: #028A62;
+    border-color: #027048;
+}
+
+.reg-button:hover{
+    color: #F0EDE5;
+    background-color: #027048;
+    border-color: #028A62!important;
+}
+
+.reg-button:focus{
+    color: #F0EDE5;
+    background-color: #027048!important;
+    border-color: #028A62!important;
+}
+
+.reg-button:active{
+    color: #F0EDE5;
+    background-color: #027048!important;
+    border-color: #028A62!important;
+}
+
+.up-block{
+  margin-top: 10px
+}
+
+.welcome{
+	font-size: 150%;
+	color: #F6F6F6;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+h1{
+	font-family: 'Baloo Bhai', cursive;
+	color: #F6F6F6;
+	font-size: 800%;
+}
+
+.logo_img{
+	width: 100px;
+	height: 100px;
+}

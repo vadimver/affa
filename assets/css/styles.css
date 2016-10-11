@@ -1,0 +1,273 @@
+body{
+  background: url('../fon6.png');
+  font-family: helvetica, sans-serif;
+  min-height: 1000px;
+  position:relative;
+}
+
+/* Navigation */
+.nav{
+  	font-family: 'Baloo Bhai', cursive;
+  	font-size: 15px;
+}
+
+.navbar-toggle:hover {
+    background-color: #F0E6BE!important;
+}
+
+.navbar-toggle:focus {
+    background-color: #F0E6BE!important;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #9A8069;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #9A8069;
+    font-weight: inherit;
+}
+
+
+.navbar-brand{
+  font-family: 'Baloo Bhai', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #9A8069!important;
+}
+
+.nav a:hover{
+  font-weight: bold;
+  color: #9A8069!important;
+}
+
+.navbar{
+  background-color: #F0ECDC;
+}
+
+.navbar-header{
+  border-right: 3px solid #DBD7A3;
+}
+
+.menu_active{
+  font-weight: bold;
+  background-color: #F0ECC1;
+}
+.dropdown-menu{
+  background-color: #F0ECDC;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #F0ECDC;
+}
+
+.dropdown-menu>li>a {
+    color: #9A8069;
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #F0ECDC;
+}
+
+.dropdown-menu{
+  width: 50px;
+}
+
+/* Now */
+.pagination_block{
+  text-align:center;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    background-color: #A28871;
+    border-color: #A28871;
+    cursor: default;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #A28871;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+.range_block{
+  text-align: center;
+}
+
+.affa{
+  word-wrap: break-word;
+  min-height: 200px;
+  margin-bottom: 50px;
+}
+
+.range{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.range:hover{
+  color: black;
+}
+
+.glyphicon-plus{
+  color: green;
+}
+
+.glyphicon-minus{
+  color: grey;
+}
+.glyphicon-edit{
+  color: #DD9D00;
+}
+.glyphicon-remove{
+  color: #CC1212;
+}
+
+.block_affairs{
+  margin-top: 30px;
+}
+
+.icons{
+  text-align:right;
+}
+
+/* New */
+.icons-example{
+  margin-bottom: 50px;
+  text-align:center;
+}
+.icons-example a{
+  margin-left: 100px;
+}
+.block_radio input{
+  margin-right: 50px;
+}
+.icons strong{
+  position: absolute;
+  left: 30px;
+}
+
+.new_button{
+  margin-left: 40%;
+}
+
+.block_radio{
+  margin-left: 15%;
+}
+
+.example_block{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.radio_color_green{
+  color: #69763D;
+}
+.radio_color_blue{
+  color: #3197D0;
+}
+.radio_color_orange{
+  color: #D8A150;
+}
+.radio_color_red{
+  color: #AF4442;
+}
+/* archive */
+.info_archive_complied{
+  background-color: #D9EDF7;
+
+}
+.info_archive_fail{
+  background-color: #BBD6D6;
+}
+.warning_archive_complied{
+  background-color: #FCF8E3;
+
+}
+.warning_archive_fail{
+  background-color: #DDD9C4;
+}
+.danger_archive_complied{
+  background-color: #F2DEDE;
+
+}
+.danger_archive_fail{
+  background-color: #D8C6C6;
+}
+.success_archive_complied{
+  background-color: #DFF0D8;
+}
+.success_archive_fail{
+  background-color: #B5C6AE;
+}
+
+.hr_archive_fail{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  width: 88%;
+  border-top: 2px solid #CD0000;
+}
+
+.hr_archive_complied{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  width: 88%;
+  border-top: 2px solid green;
+}
+
+.archive_range{
+  text-align:center;
+}
+
+.icons_archive{
+  padding-top: 10px;
+  text-align:right;
+}
+
+.icons_archive strong{
+  position: absolute;
+  left: 30px;
+}
+
+.archive_text{
+  margin-left: 15px;
+}
+
+.strong_complied{
+  color: green!important;
+}
+
+.strong_fail{
+  color: #CD0000;
+}
+
+.icons_archive a{
+  padding-right: 10px;
+}
+
+/* footer */
+footer{
+  height: 50px;
+  background-color: #DEDACC;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer{
+  display: inline-block;
+  margin-right: 15%;
+  padding-top: 15px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.footer a{
+    color: #9A8069;
+}
